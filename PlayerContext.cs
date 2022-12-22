@@ -15,7 +15,7 @@ namespace EntityFrameworkPlayers
             public DbSet<Team> Team { get; set; }
             protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             {
-                optionsBuilder.UseSqlServer("Data Source=localhost;Database=DBPlaters;" +
+            optionsBuilder.UseSqlServer("Data Source=localhost;Database=DBPlayers;" +
                 "Integrated Security=True;TrustServerCertificate=True");
             }
         }
