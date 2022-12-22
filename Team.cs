@@ -9,6 +9,7 @@ namespace EntityFrameworkPlayers
 {
     internal class Team
     {
+        public int Id { get; set; }
         [Required]
         public string nome { get; set; }
         [Required]
